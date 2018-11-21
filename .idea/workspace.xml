@@ -1,0 +1,1233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="serviceOutsourcing:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="12f5358e-47ea-47e5-8632-c087ebe627b7" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/serviceOutsourcing$test_html.ic" NAME="test.html Coverage Results" MODIFIED="1533097146069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="353638695">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="88" />
+          <entry key="project.open.time.0" value="7" />
+          <entry key="project.open.time.1" value="15" />
+          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.14" value="3" />
+          <entry key="project.open.time.15" value="2" />
+          <entry key="project.open.time.17" value="2" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.19" value="2" />
+          <entry key="project.open.time.2" value="5" />
+          <entry key="project.open.time.20" value="3" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.27" value="3" />
+          <entry key="project.open.time.28" value="3" />
+          <entry key="project.open.time.29" value="4" />
+          <entry key="project.open.time.3" value="3" />
+          <entry key="project.open.time.30" value="5" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.32" value="4" />
+          <entry key="project.open.time.33" value="5" />
+          <entry key="project.open.time.34" value="4" />
+          <entry key="project.open.time.35" value="7" />
+          <entry key="project.open.time.36" value="4" />
+          <entry key="project.open.time.37" value="2" />
+          <entry key="project.open.time.38" value="5" />
+          <entry key="project.open.time.39" value="1" />
+          <entry key="project.open.time.40" value="3" />
+          <entry key="project.open.time.41" value="1" />
+          <entry key="project.open.time.42" value="1" />
+          <entry key="project.open.time.44" value="1" />
+          <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.47" value="1" />
+          <entry key="project.open.time.48" value="1" />
+          <entry key="project.open.time.53" value="1" />
+          <entry key="project.opened" value="107" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="1" />
+          <entry key="fxml" value="12" />
+          <entry key="groovy" value="1" />
+          <entry key="html" value="85" />
+          <entry key="java" value="1219" />
+          <entry key="jsp" value="1" />
+          <entry key="properties" value="7" />
+          <entry key="xml" value="250" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="Groovy" value="1" />
+          <entry key="HTML" value="85" />
+          <entry key="JAVA" value="1219" />
+          <entry key="JSP" value="1" />
+          <entry key="Properties" value="7" />
+          <entry key="XML" value="262" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="104" />
+          <entry key="html" value="3118" />
+          <entry key="java" value="47423" />
+          <entry key="xml" value="2879" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="3118" />
+          <entry key="JAVA" value="47423" />
+          <entry key="PLAIN_TEXT" value="104" />
+          <entry key="SQL" value="51" />
+          <entry key="XML" value="2828" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="684220428">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="1" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="20" />
+          <entry key="js" value="1" />
+          <entry key="xml" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="1" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="20" />
+          <entry key="JavaScript" value="1" />
+          <entry key="XML" value="4" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/model/SysUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="143" column="17" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/model/SignUserAndCount.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/model/SupplyBorrowRecord.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-276" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/model/SysAnnouncement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-276" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/model/SysGraduateDuty.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/model/SysGroup.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-414" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/model/SysHealthHead.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2148" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/servlet/SysUserServlet/LoginServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/servlet/filter/LoginFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="759">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/service/SysUserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="HTML File" />
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>BaseResultMap</find>
+      <find>mybatis</find>
+      <find>build</find>
+      <find>mybatis-con</find>
+      <find>mybatis.model</find>
+      <find>model</find>
+      <find>SqlSession ses=SessionF.sessionOpen();</find>
+      <find>SessionF.sessionClose(ses);</find>
+      <find>sign</find>
+      <find>proje</find>
+      <find>activity</find>
+      <find>modifyAc</find>
+      <find>modifyProject</find>
+      <find>after</find>
+      <find>insert</find>
+      <find>makePath</find>
+      <find>task</find>
+      <find>before</find>
+      <find>project</find>
+      <find>fil</find>
+      <find>loginSe</find>
+      <find>GetAnnouncementList</find>
+      <find>login</find>
+      <find>filter</find>
+      <find>user</find>
+      <find>annou</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>SqlSession sqlSession=this.getSqlSession();</replace>
+      <replace>ses.close();</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/mybatis/servlet/ScoreRecord/GetScoreRcordListServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mybatis/servlet/SysActivityServlet/AddActivityServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mybatis/servlet/SysActivityServlet/AttendActivityServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mybatis/servlet/SysActivityServlet/GetHoldingActivityListServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mybatis/servlet/SysActivityServlet/GetMyActivityListServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mybatis/servlet/SysActivityServlet/ModifyActivityServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mybatis/servlet/SysAnnouncementServlet/AddAnnouncementServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mybatis/servlet/SysMeetingroomServlet/BorrowMeetingRoomServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mybatis/servlet/SysMeetingroomServlet/DeleteMeetingroomServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mybatis/servlet/SysProjectServlet/AddProjectServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mybatis/servlet/SysProjectServlet/ApplyToJoinProjectServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mybatis/servlet/SysProjectServlet/ApplyToOutProjectServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mybatis/servlet/SysProjectServlet/GetApplyerListServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mybatis/servlet/SysProjectServlet/GetDoingProjectListServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mybatis/servlet/SysProjectServlet/GetMyProjectListServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mybatis/servlet/SysProjectServlet/IsPassProjectApplyServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mybatis/servlet/SysProjectServlet/ModifyProjectServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mybatis/servlet/SysTaskServlet/GetMySubmitTaskListServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mybatis/servlet/SysTaskServlet/PublishTaskServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mybatis/servlet/SysTaskServlet/SubmitTaskServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mybatis/servlet/SysUserServlet/GetScoreByAccountServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mybatis/servlet/SysUserServlet/SelectRoleByUserServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mybatis/servlet/ScoreRecord/InsertScoreRecordServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mybatis/servlet/SysActivityServlet/OutActivityServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mybatis/servlet/SysUserServlet/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mybatis/servlet/SysBookServlet/SysBookMyApplicationRecordsByWordsServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mybatis/servlet/SysBookServlet/SysBookMyApplicationRecordsServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mybatis/servlet/SysBookServlet/SysBookSelectMyBorrowByWordsServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mybatis/servlet/SysBookServlet/SysBookSelectMyBorrowServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mybatis/servlet/SysSupplyServlet/SysSupplyMyApplicationRecordsByWordsServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mybatis/servlet/SysSupplyServlet/SysSupplyMyApplicationRecordsServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mybatis/servlet/SysSupplyServlet/SysSupplySelectMyBorrowByWordsServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mybatis/servlet/SysSupplyServlet/SysSupplySelectMyBorrowServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/test.html" />
+        <option value="$PROJECT_DIR$/src/main/java/mybatis/servlet/FileTestServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mybatis/mapper/SysUserMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mybatis/servlet/SysHealthHeadServlet/InsertHealthHeadListServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis/mapper/SysUserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/mybatis/servlet/SysUserServlet/InsertUserListServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mybatis/service/SysUserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mybatis/servlet/SysUserServlet/ModifyPassServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mybatis/service/SysUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mybatis/service/SysAnnouncementService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mybatis/service/SysAnnouncementServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mybatis/servlet/SysAnnouncementServlet/DelAnnouncementServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/test3.html" />
+        <option value="$PROJECT_DIR$/src/main/java/mybatis/service/TaskSubmitService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/mybatis/util/Constants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mybatis/servlet/SysTaskServlet/GetMyTaskListServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mybatis/servlet/SysTaskServlet/GetSubmitTaskListServlet.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Program Files/maven" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="479" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="serviceOutsourcing" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="serviceOutsourcing" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="serviceOutsourcing" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="serviceOutsourcing" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="serviceOutsourcing" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="serviceOutsourcing" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="serviceOutsourcing" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="serviceOutsourcing" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="serviceOutsourcing" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="serviceOutsourcing" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="mybatis" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="serviceOutsourcing" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="serviceOutsourcing" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="mybatis" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="model" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="serviceOutsourcing" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="serviceOutsourcing" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="mybatis" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="service" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="serviceOutsourcing" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="serviceOutsourcing" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="mybatis" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="servlet" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="serviceOutsourcing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serviceOutsourcing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serviceOutsourcing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serviceOutsourcing" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serviceOutsourcing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serviceOutsourcing" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serviceOutsourcing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serviceOutsourcing" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serviceOutsourcing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serviceOutsourcing" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serviceOutsourcing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serviceOutsourcing" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serviceOutsourcing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serviceOutsourcing" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="SysTaskServlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serviceOutsourcing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serviceOutsourcing" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serviceOutsourcing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serviceOutsourcing" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serviceOutsourcing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serviceOutsourcing" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serviceOutsourcing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serviceOutsourcing" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="bean&#9;ACTION&#9;Spring.Beans.Generate.Action&#10;lo&#9;FILE&#9;file://D:/servlet/serviceOutsourcing/src/main/java/mybatis/servlet/SysUserServlet/LoginServlet.java&#10;tem&#9;null&#9;null" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542815446877" />
+    <property name="last_opened_file_path" value="D:/072 JAVAJSP+SQL校友录" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.23534799" />
+    <property name="settings.editor.selected.configurable" value="database.data.views" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/src/main/java/mybatis/model/SysGroup.java" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="mybatis.servlet.SysGraduateDutyServlet" />
+      <recent name="mybatis.servlet.SysHealthHeadServlet" />
+      <recent name="mybatis.servlet.SysSignServlet" />
+      <recent name="mybatis.servlet.SysMeetingroomServlet" />
+      <recent name="mybatis.servlet.SysUserServlet" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\serviceOutsourcing\src\main\resources\generator" />
+      <recent name="D:\serviceOutsourcing\src\main\webapp" />
+      <recent name="D:\serviceOutsourcing\src\main\java\mybatis\servlet\filter" />
+      <recent name="D:\serviceOutsourcing\src\main\java\mybatis\service" />
+      <recent name="D:\serviceOutsourcing\src\main\java\mybatis\model" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="tomcat8.0" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.34" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="serviceOutsourcing:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_serviceOutsourcing" />
+        <option name="HTTP_PORT" value="8080" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58550" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="serviceOutsourcing:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="12f5358e-47ea-47e5-8632-c087ebe627b7" name="Default Changelist" comment="" />
+      <created>1532865101788</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1532865101788</updated>
+      <workItem from="1532865103825" duration="272000" />
+      <workItem from="1532865707758" duration="885000" />
+      <workItem from="1532866971545" duration="1054000" />
+      <workItem from="1532868149713" duration="1072000" />
+      <workItem from="1532869479582" duration="1110000" />
+      <workItem from="1532870732531" duration="861000" />
+      <workItem from="1532871933529" duration="878000" />
+      <workItem from="1532876680564" duration="1027000" />
+      <workItem from="1532877952800" duration="962000" />
+      <workItem from="1532879200898" duration="1015000" />
+      <workItem from="1532880428224" duration="966000" />
+      <workItem from="1532882053444" duration="1074000" />
+      <workItem from="1532883331348" duration="951000" />
+      <workItem from="1532884541311" duration="360000" />
+      <workItem from="1532913148264" duration="586000" />
+      <workItem from="1532919853377" duration="721000" />
+      <workItem from="1532921079604" duration="322000" />
+      <workItem from="1532922304314" duration="1158000" />
+      <workItem from="1532924673322" duration="184000" />
+      <workItem from="1532925044478" duration="8370000" />
+      <workItem from="1532934819367" duration="1272000" />
+      <workItem from="1532943961051" duration="4937000" />
+      <workItem from="1532952511885" duration="29000" />
+      <workItem from="1532952562282" duration="3747000" />
+      <workItem from="1533000944085" duration="27788000" />
+      <workItem from="1533086307100" duration="11557000" />
+      <workItem from="1533103332930" duration="16006000" />
+      <workItem from="1533174615836" duration="7531000" />
+      <workItem from="1533183592422" duration="17976000" />
+      <workItem from="1533258350123" duration="9052000" />
+      <workItem from="1533270112735" duration="5488000" />
+      <workItem from="1533278587428" duration="1867000" />
+      <workItem from="1533288300673" duration="2000000" />
+      <workItem from="1533360310735" duration="13948000" />
+      <workItem from="1533380313531" duration="8029000" />
+      <workItem from="1533433484707" duration="7266000" />
+      <workItem from="1533454768059" duration="819000" />
+      <workItem from="1533522966050" duration="150000" />
+      <workItem from="1533523494921" duration="666000" />
+      <workItem from="1533525487693" duration="438000" />
+      <workItem from="1533547483218" duration="416000" />
+      <workItem from="1533554201448" duration="813000" />
+      <workItem from="1533559765968" duration="72000" />
+      <workItem from="1534142503980" duration="3319000" />
+      <workItem from="1534209433381" duration="12054000" />
+      <workItem from="1535020087585" duration="13549000" />
+      <workItem from="1535271540843" duration="6661000" />
+      <workItem from="1535288033135" duration="1790000" />
+      <workItem from="1535342849385" duration="22845000" />
+      <workItem from="1535529004141" duration="5827000" />
+      <workItem from="1535763988616" duration="188000" />
+      <workItem from="1535770186084" duration="5044000" />
+      <workItem from="1535820932199" duration="509000" />
+      <workItem from="1535876762579" duration="23000" />
+      <workItem from="1535886295553" duration="26000" />
+      <workItem from="1536065517008" duration="20000" />
+      <workItem from="1536143974186" duration="12513000" />
+      <workItem from="1536234634750" duration="128000" />
+      <workItem from="1536236552381" duration="8262000" />
+      <workItem from="1536319660675" duration="7486000" />
+      <workItem from="1536370626898" duration="3306000" />
+      <workItem from="1536579563445" duration="725000" />
+      <workItem from="1536652478790" duration="7483000" />
+      <workItem from="1536662749831" duration="10226000" />
+      <workItem from="1536737466771" duration="3432000" />
+      <workItem from="1536836325333" duration="3916000" />
+      <workItem from="1536924555741" duration="4483000" />
+      <workItem from="1537010699341" duration="3700000" />
+      <workItem from="1537062106484" duration="1538000" />
+      <workItem from="1537066010197" duration="29000" />
+      <workItem from="1537070204059" duration="73000" />
+      <workItem from="1537450428415" duration="170000" />
+      <workItem from="1537527879802" duration="2382000" />
+      <workItem from="1537530397424" duration="7855000" />
+      <workItem from="1537543432336" duration="67000" />
+      <workItem from="1537774787947" duration="5232000" />
+      <workItem from="1537962666786" duration="725000" />
+      <workItem from="1538210109979" duration="106000" />
+      <workItem from="1538752180820" duration="4770000" />
+      <workItem from="1538788221717" duration="9597000" />
+      <workItem from="1538911616512" duration="1461000" />
+      <workItem from="1538995722133" duration="1576000" />
+      <workItem from="1539247367632" duration="4485000" />
+      <workItem from="1539413404218" duration="9114000" />
+      <workItem from="1539423800028" duration="8068000" />
+      <workItem from="1539488142944" duration="10638000" />
+      <workItem from="1539501384513" duration="3006000" />
+      <workItem from="1539509125013" duration="4545000" />
+      <workItem from="1539601920034" duration="32000" />
+      <workItem from="1539604066036" duration="8153000" />
+      <workItem from="1539613760056" duration="1385000" />
+      <workItem from="1539621505608" duration="1391000" />
+      <workItem from="1539778106935" duration="737000" />
+      <workItem from="1540039231220" duration="1082000" />
+      <workItem from="1540378622921" duration="223000" />
+      <workItem from="1540379283845" duration="133000" />
+      <workItem from="1540386709397" duration="286000" />
+      <workItem from="1540557056928" duration="3150000" />
+      <workItem from="1540629480787" duration="27000" />
+      <workItem from="1540634708002" duration="83000" />
+      <workItem from="1541169662496" duration="784000" />
+      <workItem from="1541412937678" duration="1338000" />
+      <workItem from="1541515485749" duration="1225000" />
+      <workItem from="1541517324462" duration="2467000" />
+      <workItem from="1541685266797" duration="607000" />
+      <workItem from="1541735465905" duration="2947000" />
+      <workItem from="1541763437022" duration="13920000" />
+      <workItem from="1542089878400" duration="4118000" />
+      <workItem from="1542413882747" duration="4055000" />
+      <workItem from="1542814875794" duration="520000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="SysUserMapperTest_testRollBack - 2018.09.13 at 19h 09m 52s.xml">
+      <configuration name="SysUserMapperTest.testRollBack" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SysUserMapperTest_testRollBack - 2018.09.13 at 19h 12m 37s.xml">
+      <configuration name="SysUserMapperTest.testRollBack" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SysUserMapperTest_testRollBack - 2018.09.13 at 19h 13m 47s.xml">
+      <configuration name="SysUserMapperTest.testRollBack" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SysUserMapperTest_testRollBack - 2018.09.13 at 19h 17m 34s.xml">
+      <configuration name="SysUserMapperTest.testRollBack" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SysUserMapperTest_testRollBack - 2018.09.13 at 19h 18m 50s.xml">
+      <configuration name="SysUserMapperTest.testRollBack" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SysUserMapperTest_testRollBack - 2018.09.13 at 19h 23m 18s.xml">
+      <configuration name="SysUserMapperTest.testRollBack" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SysUserMapperTest_testRollBack - 2018.09.13 at 19h 23m 32s.xml">
+      <configuration name="SysUserMapperTest.testRollBack" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SysUserMapperTest_testRollBack - 2018.09.13 at 19h 54m 50s.xml">
+      <configuration name="SysUserMapperTest.testRollBack" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SysUserMapperTest_testRollBack - 2018.09.13 at 20h 05m 45s.xml">
+      <configuration name="SysUserMapperTest.testRollBack" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SysUserMapperTest_testRollBack - 2018.09.13 at 20h 06m 44s.xml">
+      <configuration name="SysUserMapperTest.testRollBack" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="427310000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.9348442" visible="true" weight="0.18710022" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" sideWeight="0.065155804" side_tool="true" visible="true" weight="0.25268096" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.4735294" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.15722379" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32919255" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4989339" weight="0.3943662" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5010661" side_tool="true" weight="0.3943662" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.26770538" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.040889528" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/mapper/SysHealthHeadMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="101" column="58" lean-forward="true" selection-start-line="96" selection-start-column="4" selection-end-line="101" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/mapper/SysHealthHeadDateMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1497">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/test2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-378" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/mapper/SysUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="386" column="68" lean-forward="true" selection-start-line="386" selection-start-column="68" selection-end-line="386" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/servlet/SysHealthHeadServlet/InsertHealthHeadListServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="59" column="18" lean-forward="true" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/lang/String.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/servlet/SysUserServlet/InsertUserListServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="47" column="14" lean-forward="true" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/servlet/SysUserServlet/GetSeatListServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="18" column="53" lean-forward="true" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/servlet/SysUserServlet/OutServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/model/SysUserExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="923" selection-start-line="923" selection-end-line="923" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/servlet/SysUserServlet/SelectRoleByUserServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="28" column="68" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="28" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/servlet/filter/PriRoleFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="42" column="34" lean-forward="true" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/servlet/SysUserServlet/ModifyPassServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="28" column="49" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/servlet/SysAnnouncementServlet/GetAnnouncementListServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="28" column="63" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="28" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/servlet/SysAnnouncementServlet/AddAnnouncementServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="22" column="51" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="22" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/service/SysActivityService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-168">
+          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/service/SysAnnouncementService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="33" column="39" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/servlet/SysAnnouncementServlet/DelAnnouncementServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/servlet/SysTaskServlet/GetTaskListServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="28" column="38" lean-forward="true" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/service/SysAnnouncementServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="36" column="47" lean-forward="true" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/servlet/SysTaskServlet/DeleteTaskByIdServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/model/SysTaskExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="734" selection-start-line="734" selection-end-line="734" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/service/TaskSubmitServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="77" column="42" lean-forward="true" selection-start-line="77" selection-start-column="42" selection-end-line="77" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/util/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/service/SysTaskService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/service/SysTaskServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="11" column="78" selection-start-line="11" selection-start-column="78" selection-end-line="11" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/service/TaskSubmitService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/servlet/SysTaskServlet/GetSubmitTaskListServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="41" column="76" selection-start-line="41" selection-start-column="76" selection-end-line="41" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/servlet/SysTaskServlet/GetMyTaskListServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="31" column="54" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/test3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serviceOutsourcing.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="47" column="22" lean-forward="true" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/model/ActivityMembersExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1380" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/model/ActivityMembers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="136" column="5" lean-forward="true" selection-start-line="136" selection-start-column="5" selection-end-line="136" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/model/SysRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="7" selection-end-line="79" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/mapper/BaseMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/service/SysUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/mapper/SysUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2185">
+          <caret line="95" column="25" selection-start-line="95" selection-start-column="25" selection-end-line="95" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/loginJs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1219">
+          <caret line="53" column="24" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/servlet/filter/LoginFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/service/SysUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/servlet/SysUserServlet/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/model/SysUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="143" column="17" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/model/SignUserAndCount.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/model/SupplyBorrowRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-276" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/model/SysAnnouncement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-276" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/model/SysGraduateDuty.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/model/SysGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-414" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/model/SysHealthHead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2148" />
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>serviceOutsourcing:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.23534799" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Detection</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>serviceOutsourcing</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.23534799" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: commons-beanutils:commons-beanutils:1.9.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.23534799" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
