@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        var array=new Array();
+        array.push(1);
+        array.push(2);
+        array.push(3);
+
+        $(function(){
+            // var rows= new Array();
+            // for ( var i = 1; i <= 6; i++) {
+            //     var object = new Object();
+            //     object.principal1 = (i+221600415)+"";
+            //     object.principal2 =(221600415+i+1)+"";
+            //     object.weekNum=i+"";
+            //     rows.push(object);
+            // }
+
+            $("#testButton").click(function(){
+                //http://119.23.36.199:9999/serviceOutsourcing/
+                $.post("getAnnouncementList",{
+
+                    //userAccount:"221600416"
+                    // taskId:"1"
+                    // search:"发布",
+                     pageNum:"1",
+                     pageSize:"5"
+                    // account:"221600418",
+                    // text:"发布公告",
+                    // name:"吴杰婷"
+
+                //         taskAccount:"221600416",
+                //         taskUserName:"黄海山",
+                // taskName:"第十次作业",
+                // taskRemark:"按时提交",
+                //     taskEndTime:"2018-09-30 12:00:00",
+                //     taskGroup:"web"
+
+
+                    //roleArray:array.toString(),
+                        //id:"7",
+                        // submitAccount:"221600416",
+                        // group:"web"
+                        //submitName:"第八次作业"
+                    //rows:JSON.stringify(rows)
+                    //account:"221600416"
+                        // PageSize:"10",
+                        //start:"1"
+                        //projectID:"1",
+                        //pmReason:"无",
+                        // projectID:"1",
+                        // projectName:"service",
+                        // projectAccount:"221600416",
+                        // projectRequired:"10",
+                        // projectRemark:"外包项目",
+                        // projectBeginTime:"2019-8-5",
+                        // projectEndTime:"2020-8-5"
+
+                        //inspectResult:"1",
+                       // activityID:"15",
+                       //  activityName:"测试",
+                       //  activityPosition:"东三",
+                       //  activityAccount:"221600416",
+                       //  activityBeginTime:"2018-09-08 12:10:10",
+                       //  activityEndTime:"2019-12-31 13:10:10",
+                       //  activityMoney:"5",
+                       //  activityMin:"1",
+                       //  activityMax:"1000",
+                       //  activityRemark:"无"
+                    // year:"2018",
+                    // month:"8"
+                    //  userAccount:"221600416"
+                    // userPassword:"123456"
+                    //  date:"2018-10-05",
+                    //   frequency:"1",
+                    //    choice:array.toString(),
+                    //   userAccount:"221600416"
+                    },
+                    function(data){
+                        alert(data);
+                        //http://119.23.36.199:9999/serviceOutsourcing/
+                    });
+            });
+        });
+    </script>
+</head>
+<body>
+<input type="button" id="testButton" name="testButton" value="testButton"/>
+</body>
+</html>

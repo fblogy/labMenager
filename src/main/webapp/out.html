@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $.ajaxSetup({
+            complete : function(XMLHttpRequest, textStatus) { // 通过XMLHttpRequest取得响应头，REDIRECT
+                var redirect = XMLHttpRequest.getResponseHeader("REDIRECT");//若HEADER中含有REDIRECT说明后端想重定向
+                if (redirect == "REDIRECT") {
+                    var win = window;
+                    if (win != win.top){
+                        win = win.top;
+                    }
+                    win.location.href= XMLHttpRequest.getResponseHeader("CONTEXTPATH");//CONTEXTPATH为重定向的地址,在后端已设置好
+                }
+            }
+        });
+
+        $(function(){
+            $("#testButton2").click(function(){
+                //http://119.23.36.199:9999/serviceOutsourcing/
+                $.post("out",{
+                    },
+                    function(data){
+                    alert("do");
+                        //alert(data);
+                        //http://119.23.36.199:9999/serviceOutsourcing/
+                    });
+            });
+        });
+    </script>
+</head>
+<body>
+<input type="button" id="testButton2" name="testButton2" value="out"/>
+</body>
+</html>
