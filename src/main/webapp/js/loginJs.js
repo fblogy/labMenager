@@ -40,9 +40,10 @@ document.body.appendChild(p);
 
 
 function clickLogin(){
-
+    
     var myacct=document.querySelector('#getAcct').value;
     var mypwd=document.querySelector('#getPwd').value;
+    //alert('click'+myacct+mypwd);
     if((myacct=='')||(mypwd=='')){
         alert('输入不能为空!')
     }else{

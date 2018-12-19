@@ -11,6 +11,7 @@
 <link rel="stylesheet" href="./css/modelCSS.css">
 <link rel="stylesheet" href="./css/dorpdownCSS.css">
 <link rel="stylesheet" href="./css/sidebarLoadCSS.css">
+<link rel="stylesheet" href="./css/activityDoneCSS.css">
 <link rel="icon" href="./img/logoSmall.png" type="image/x-icon">
 </head>
 
@@ -40,7 +41,51 @@
 			
 		</div>
 		<div  id="AllContainer" style="width: 100%; height: 100%;">
-			
+			        <div style="position: relative;width: 100%;height: 100%">
+						<div class="rightTop">
+							<div style="width: 100%;height: 100%;background-color: #fff;box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.07);border-radius: 3px;">
+								<div class="topbar">
+									<div class="barleft" onclick="location.href='activityIng.html'" style="cursor: pointer;">
+										<span class="barlefttext">进行中</span>
+									</div>
+									<div class="barmiddle" onclick="location.href='activityDone.html'" style="cursor: pointer;">
+										<span class="barmiddletext">已结束</span>
+									</div>
+									<div class="barcenter" onclick="location.href='activityMy.html'" style="cursor: pointer;">
+										<span class="barcentertext">我的活动</span>
+									</div>
+									<div class="barright" onclick="location.href='activityPub.html'" style="cursor: pointer;">
+										<span class="barrighttext">发起活动</span>
+									</div>
+                                </div>
+                                <div id="actContainer" style="overflow-y: scroll;height:90%">
+                                    
+
+                                </div>
+								
+								<!-- <div class="activity">
+									<div class="activityTitle">活动名称</div>
+									<div style="display: flex;align-items: flex-start;height: 82.6%; width: 100%">
+										<div style="display: flex;justify-content: space-between;align-items: center;width: 66.3%;height: 100%;">
+											<span class="activitytext">活动时间：2018-8-20 14:00-17:00</span>
+											<span class="activitytext">发起人：一二三</span>
+											<span class="activitytext">报名截止：2018-8-20 14:00-17:00</span>
+										</div>
+									</div>
+								</div>
+								<div class="activity">
+									<div class="activityTitle">活动名称</div>
+									<div style="display: flex;align-items: flex-start;height: 82.6%; width: 100%">
+										<div style="display: flex;justify-content: space-between;align-items: center;width: 66.3%;height: 100%;">
+											<span class="activitytext">活动时间：2018-8-20 14:00-17:00</span>
+											<span class="activitytext">发起人：一二三</span>
+											<span class="activitytext">报名截止：2018-8-20 14:00-17:00</span>
+										</div>
+									</div>
+								</div> -->
+							</div>
+						</div>
+                	</div>
 		</div>
 	</div>
 </div>
@@ -49,8 +94,13 @@
 	<script src="./js/sideBar.js"></script>
 	<script src="./js/dropDown.js"></script>
 	<script src="./js/sideBarLoad.js"></script>
-	<script src="./js/locIndexJS.js"></script>
 	<script src="./js/modelJS.js"></script>
+
+	<script src="./js/locActivityDoneJS.js"></script>
+	<script src="./js/ActivityDoneJS.js"></script>
+	
+	
+	
 	<!-- <script src="./js/dropDown2.js"></script> -->
 
 </html>

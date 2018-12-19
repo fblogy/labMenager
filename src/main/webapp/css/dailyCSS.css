@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+@import "font.css";
+.rightTop{
+	width: 89%; height: 45.5%;margin:0px auto;padding-top: 2%;min-width: 716px;
+}
+.rightTopLeft{
+	width: 23.1%;height: 42%;margin-left: 3.3%;margin-top: 1.2%;
+}
+.rightTopMiddle{
+	width: 28.4%;height: 77.9%;margin-top: 1.2%;;
+}
+.rightTopRight{
+	width: 23.1%;height: 53.4%;margin-top: 1.2%;margin-right: 3%;
+}
+.rightTopLeftTop{
+	height: 17%;width: 100%; background-color: #fff;
+}
+.rightTopLeftTopTitlt{
+	height: 100%;display: flex; font-family:"微软雅黑";font-size: 95%;color: #2e4e7e;letter-spacing: 0.5px;float: left;border-left: 5px solid #c93756;padding-left: 4%;
+}
+.rightTopLeftTopright{
+	height: 59%;font-family: "微软雅黑";font-size: 11px;color: #000000;opacity: 0.3;float: right;padding-left: 6.6%;padding-top: 2.5%;padding-bottom: 6.7%;
+}
+.rightTopLeftTable{
+	width: 100%;height: 80.4%;background-color: #fff;padding-top: 5%
+}
+.rightTopMiddleTop{
+	height: 9%;width: 100%; background-color: #fff;
+}
+.rightTopMiddleTopTitlt{
+	height: 100%;display: flex; font-family: "微软雅黑";font-size: 95%;color: #2e4e7e;letter-spacing: 0.5px;float: left;border-left: 5px solid #c93756;padding-left: 3%;
+}
+.rightTopMiddleTopright{
+	height: 59%;font-family: "微软雅黑";font-size: 11px;color: #000000;opacity: 0.3;float: right;padding-left: 6.6%;padding-top: 2.5%;padding-bottom: 5.45%;
+}
+.rightTopMiddleTable{
+	width: 100%;height: 85.9%;background-color: #fff;padding-top: 4%
+}
+.rightTopRightTop{
+	height: 10%;width: 100%; background-color: #fff;
+}
+.rightTopRightTopTitlt{
+	height: 100%;display: flex; font-family: "微软雅黑";font-size: 95%;color: #2e4e7e;letter-spacing: 0.5px;float: left;border-left: 5px solid #c93756;padding-left: 4%;
+}
+.rightTopRightTopright{
+	height: 59%;font-family: "微软雅黑";font-size: 11px;color: #000000;opacity: 0.3;float: right;padding-left: 6.6%;padding-top: 2.5%;padding-bottom: 5.7%;
+}
+.rightTopRightTable{
+	width: 100%;height: 82.4%;padding-top: 6%; background-color: #fff;
+}
+
+.table>tbody>tr>td{
+    border:0px;color: #2e4e7e;font-size: 80%;text-align: center;padding: 1.5% 0;
+}
+.table>thead>tr>th{
+    border:0px;color: #2e4e7e;background-color: #edf5fc;text-align: center;font-size: 85%;font-weight: normal;padding: 1.5% 0;
+}
+tr{ background: #fff;} 
+tr:nth-child(2n){ background: #edf5fc;}

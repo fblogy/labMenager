@@ -25,7 +25,7 @@ $('#dropBtn').mouseenter(function(){
                 $('.mydropdownContent').append('<div class="dpCont selectRole" onclick="selectRoleFunc(this);" data-role='+roleArr[i]+'>'+transArr[roleArr[i]]+'</div>');
             }
         }
-        $('.mydropdownContent').append('<div class="dpCont" style="color:gray;line-height:50px" onclick="exitAcct()">退出</div>');
+        $('.mydropdownContent').append('<div class="dpCont exitBtn" onclick="exitAcct()">退出</div>');
         checkDrop=true;//已打开
     }
 
@@ -34,19 +34,21 @@ function selectRoleFunc(myself){//切换角色
     //alert('22222222');
      $('.dpCont').removeClass('selectEDRole');//移除选中
      $(myself).addClass('selectEDRole');//增加选中
-    //alert();
+    //alert($(myself).data('role'));
     $.ajax({
         url:"changeRole",
         data:{
             "role":$(myself).data('role'),
         },
+        type:'POST',
         success:function(data){
-            //console.log('success');
+            //console.log(getCookie('role'));
         }
     })
 }
 
 $(document).ready(function(){
+    //alert('ready');
     $.ajaxSetup({
         complete : function(XMLHttpRequest, textStatus) { // 通过XMLHttpRequest取得响应头，REDIRECT
             var redirect = XMLHttpRequest.getResponseHeader("REDIRECT");//若HEADER中含有REDIRECT说明后端想重定向
@@ -59,6 +61,7 @@ $(document).ready(function(){
             }
         }
     });
+    
 })
 function exitAcct(){
         //http://119.23.36.199:9999/serviceOutsourcing/
