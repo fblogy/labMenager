@@ -1,0 +1,24 @@
+.notice-text-title{
+    font-family: FZLTHK--GBK1-0;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #ffc79d;
+    margin-top: 74px;
+}
+.notice-text-detial{
+    font-family: FZLTXHK--GBK1-0;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #ffffff;
+	margin-top: 4%;
+   
+}
+.noticeList{
+    margin-right: 18px;
+    
+}
+.noticeDate{
+   margin-right: 5px;
+   float: right
+}
