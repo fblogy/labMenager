@@ -14,7 +14,9 @@
 	color: #2e4e7e;font-size: 90%;font-family: DengXian-Regular;font-weight: bold;padding-right: 0.5%;padding-left: 0.5%;
 }
 .rightcenter{
+
 	width: 98%;height: 58%;display: flex;justify-content: space-between;min-width: 1026.9px;min-height: 396.9px;
+
 }
 .first{
 	height: 100%;width: 19%;background: #fff;box-shadow: 0px 7px 10px 1px rgba(0, 0, 0, 0.14);border-radius: 10px;min-height: 396.9px;min-width: 241.5px;

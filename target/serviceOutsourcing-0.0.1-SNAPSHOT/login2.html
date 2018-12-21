@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript">
+
+        $.ajaxSetup({
+            complete : function(XMLHttpRequest, textStatus) { // 通过XMLHttpRequest取得响应头，REDIRECT
+                var redirect = XMLHttpRequest.getResponseHeader("REDIRECT");//若HEADER中含有REDIRECT说明后端想重定向
+                if (redirect == "REDIRECT") {
+                    var win = window;
+                    if (win != win.top){
+                        win = win.top;
+                    }
+                    win.location.href= XMLHttpRequest.getResponseHeader("CONTEXTPATH");//CONTEXTPATH为重定向的地址,在后端已设置好
+                }
+            }
+        });
+
+        function getCookie(cookieName) {
+            var strCookie = document.cookie;
+            var arrCookie = strCookie.split("; ");
+            for(var i = 0; i < arrCookie.length; i++){
+                var arr = arrCookie[i].split("=");
+                if(cookieName == arr[0]){
+                    return arr[1];
+                }
+            }
+            return "";
+        }
+
+        $(function(){
+            $("#testButton").click(function(){
+                $.post("login",{
+                    userAccount:"221600416",
+                    userPassword:"123456789"
+                    },
+                    function(data){
+                        alert(data);
+                    });
+            });
+        });
+    </script>
+</head>
+<body>
+<input type="button" id="testButton" name="testButton" value="login"/>
+</body>
+</html>
