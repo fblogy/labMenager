@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+@import "font.css";
+.rightTop{
+	width: 90%;;height: 100%; margin:0px auto;padding-top: 1.1%;
+}
+.status{
+	width: 100%;height: 9%;align-items: center;display: flex;
+}
+.state{
+	color: #2e4e7e;font-size:90%;font-family: DengXian-Regular;font-weight: bold;letter-spacing: 1px;opacity: 0.5;padding-left: 0.5%;padding-right: 0.5%;
+}
+.ing{
+	color: #2e4e7e;font-size: 90%;font-family: DengXian-Regular;font-weight: bold;padding-right: 0.5%;padding-left: 0.5%;
+}
+.title{
+	font-family: DengXian-Regular;font-size: 70%;color: #2e4e7e;
+}
+.submitbtn{
+	padding-top: 5%;width: 100%;text-align: center;
+}
+.btn1{
+	width: 24%;height: 8%;background-color: #2e4e7e;border-radius: 5px;font-family: DengXian-Regular;font-size: 70%;color: #fff;
+}
+/*自定义单选按钮*/
+.rdo {
+    width: 20px;;
+    height: 0px;
+    background-color: #000;
+    border-radius: 50%;
+    position: relative;
+}
+.rdo:before,.rdo:after {
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    transition: .3s ease;
+}
+.rdo:before {
+    top: 0px;
+    left: 0px;
+    width: 18px;
+    height: 18px;
+    background-color: #fff;
+    border: 1px solid #d6d5d5;
+}
+.rdo:checked:after {
+    top: 3px;
+    left: 3px;
+    width: 12px;
+    height: 12px;
+    background-color:#3582f8; 
+}
+.rdo:checked:before {
+    border-color:#8bb7fb; 
+}
+.input-chose input{
+	vertical-align: text-top;
+}
+.input-chose{
+	font-size: 14px;
+	padding-right: 2%;
+}
+.custom-control-label{
+	width: 40px;
+}
+.statusSpan{
+	cursor: pointer;
+}

@@ -1,0 +1,221 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>服务外包与软件设计实验室</title>
+
+<script type="text/javascript" src="jQuery3.3.1/jquery3_3_1.js"></script>
+<link href="./Bootstrap4.1.1/bootstrap4_1_1.css" rel="stylesheet">
+<script src="./Bootstrap4.1.1/bootstrap4_1_1.js"></script>
+<link rel="icon" href="./img/logo.png" type="image/x-icon">
+<link rel="stylesheet" href="./css/modelCSS.css">
+<link rel="stylesheet" href="./css/dorpdownCSS.css">
+<link rel="stylesheet" href="./css/sidebarLoadCSS.css">
+<link rel="stylesheet" href="./css/allProjCSS.css">
+<link rel="icon" href="./img/logoSmall.png" type="image/x-icon">
+
+
+</style>
+</head>
+
+<body style="min-width: 1000px;">
+<div style="position: relative;width: 100%; height: 100%; background: whitesmoke; display: flex; flex-direction: column;">
+	<div id="header" style="position: relative; width: 100%; height: 50px; min-height: 50px; background: white; display: flex; justify-content: space-between;">
+		<div style="width: 140px;padding: 5px; box-sizing: border-box; display: flex; align-items: center;">
+			<img alt="" src="img/menu.png" style="height: 25px; width: auto; cursor: pointer;" onClick="show_navigation()"/>
+		</div>
+		<div style="padding: 5px; box-sizing: border-box; display: flex; align-items: center;">
+			<img alt="" src="img/headerLogo.gif" style="height: 35px; width: auto;"/>
+		</div>
+		<div style="width: 140px;height: 100%; box-sizing: border-box; display: flex;padding-right: 10px;">
+				<div id="noticeDiv" onclick="location.href='noticePage.html'" style="height: 100%;width:50%;display:flex;flex-direction: row-reverse;align-items: center;cursor: pointer;">
+					<img src="./img/notice.png" alt="" height="30px" width="50%" style="display: block;margin: 0 auto"/>
+				</div> 
+				<div id="dropBtn" class="mydropdown"  style="z-index: 10;height: 100%;width: 50%;display:flex;flex-direction: row-reverse;align-items: center;cursor: pointer;">
+					<img src="./img/me.png" alt="" height="30px" width="50%" style="display: block;margin: 0 auto"/>
+					<div class="mydropdownContent"></div>
+				</div>
+				
+		</div>
+	</div>
+	<div style="position: relative; width: 100%; height: 100%; display: flex; justify-content: space-between; overflow: hidden;">
+		<div id="navigation" >
+			<!-- <p class="navP navPActive">首页</p> -->
+			
+		</div>
+		<div  id="AllContainer" style="width: 100%; height: 100%;">
+			<div class="rightTop">
+				<div class="status">
+					<span class="ing statusSpan" onclick="location.href='allProj.html'">所有项目</span>
+					<span>/</span>
+					<span class="state statusSpan" onclick="location.href='myProj.html'">我的项目</span>
+					<span>/</span>
+					<span class="state statusSpan" onclick="location.href='pubProj.html'">发布项目</span>
+				</div>
+				<div style="width: 100%;height: 100%;bottom: 0;overflow-y: scroll">
+					<div class="rightcenter">
+						<!-- <div class="first">
+							<div class="pic">
+								<div class="auditing">报名中</div>
+							</div>
+							<div class="demotext">
+								<div class="demotitle">基于大数据下的叽叽叽叽叽叽</div>
+								<div class="smalltitle">XXXXXXXXXXXXXX</div>
+								<div class="detail">
+									<div>负责人：一二三</div>
+									<div>开始时间：2018-8-20</div>
+									<div>职位需求：前端</div>
+									<div>预计周期：3周</div>
+									<div>备注：备注备注备注</div>
+									<div>报名截止：2018-8-30</div>
+								</div>
+							</div>
+							<div class="join" onclick="appProj();" data-toggle="modal" >报名项目 ></div>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content appMContent" style="width: 420px;height: 360px;padding-top:12px;padding-bottom:12px;padding-left:14px;padding-right:14px;">
+				<div class="modal-body " style="position: relative;width:100%;height:100%;background-color:white;flex-direction: column;padding:10px">
+					<div style="position: absolute;right: 8px;top: 8px;">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+									&times;
+							</button>
+					</div>
+					<div class="appMbodyTop" style="color:#345d89;width: 70%;height: 12%;border-bottom:1px solid #c6cedc;margin: 0 auto;text-align: center;">
+							项目报名
+					</div>
+					
+					<div class="appMbodyCtr" style="height: 74%;padding-top: 18px;width: 100%;">
+						<textarea name="" id=""  rows="8" style="width:90%;display: block;margin: 0 auto;border:1px solid #c6cedc;"></textarea>
+					</div>
+					<div class="appMbodyBtm" style="width: 95%;display: flex;flex-direction: row-reverse;padding-top: 4px" >
+						<input type="button" value="确定" data-dismiss="modal" style="cursor: pointer;float: right;width: 80px;height: 25px;border-radius: 6px;background-color: #345D89;color: white;border:none;font-size: 12px;">
+					</div>
+
+				</div>
+				
+			</div>
+		</div>
+	</div>
+						</div> -->
+
+						<!-- 
+							====================================
+							===========已结束===================
+							===================================						
+						 -->
+						 <!-- <div class="first">
+								<div class="picDone">
+									<div class="auditing">已结束</div>
+								</div>
+								<div class="demotext">
+									<div class="demotitle">基于大数据下的叽叽叽叽叽叽</div>
+									<div class="smalltitle">XXXXXXXXXXXXXX</div>
+									<div class="detail">
+										<div>负责人：一二三</div>
+										<div>开始时间：2018-8-20</div>
+										<div>职位需求：前端</div>
+										<div>预计周期：3周</div>
+										<div>备注：备注备注备注</div>
+										<div>报名截止：2018-8-30</div>
+									</div>
+								</div>
+								
+							</div> -->
+						<!-- 
+							====================================
+							===========我的项目===================
+							===================================						
+						 -->
+						 <!-- <div class="first">
+								<div class="pic">
+									<div class="auditing">报名中</div>
+								</div>
+								<div class="demotext">
+									<div class="demotitle">基于大数据下的叽叽叽叽叽叽</div>
+									<div class="smalltitle">XXXXXXXXXXXXXX</div>
+									<div class="detail">
+										<div>负责人：一二三</div>
+										<div>开始时间：2018-8-20</div>
+										<div>职位需求：前端</div>
+										<div>预计周期：3周</div>
+										<div>备注：备注备注备注</div>
+										<div>报名截止：2018-8-30</div>
+									</div>
+								</div>
+								<div class="join" onclick="location.href='myProj.html'">进入项目 ></div>
+							</div> -->
+
+						<!-- <div class="first">
+							<div class="pic">
+								<div class="auditing">报名中</div>
+							</div>
+							<div class="demotext">
+								<div class="demotitle">基于大数据下的叽叽叽叽叽叽</div>
+								<div class="smalltitle">XXXXXXXXXXXXXX</div>
+								<div class="detail">
+									<div>负责人：一二三</div>
+									<div>开始时间：2018-8-20</div>
+									<div>职位需求：前端</div>
+									<div>预计周期：3周</div>
+									<div>备注：备注备注备注</div>
+									<div>报名截止：2018-8-30</div>
+								</div>
+							</div>
+							<div class="join">报名项目 ></div>
+						</div>
+						<div class="first">
+							<div class="demotext">
+								<div class="demotitle">基于大数据下的叽叽叽叽叽叽</div>
+								<div class="smalltitle">XXXXXXXXXXXXXX</div>
+								<div class="detail">
+									<div>负责人：一二三</div>
+									<div>开始时间：2018-8-20</div>
+									<div>预计周期：3周</div>
+									<div>备注：备注备注备注</div>
+								</div>
+							</div>
+						</div>
+						<div class="first">
+							<div class="demotext">
+								<div class="demotitle">基于大数据下的叽叽叽叽叽叽</div>
+								<div class="smalltitle">XXXXXXXXXXXXXX</div>
+								<div class="detail">
+									<div>负责人：一二三</div>
+									<div>开始时间：2018-8-20</div>
+									<div>预计周期：3周</div>
+									<div>备注：备注备注备注</div>
+								</div>
+							</div>
+						</div>
+						<div class="first">
+							<div class="demotext">
+								<div class="demotitle">基于大数据下的叽叽叽叽叽叽</div>
+								<div class="smalltitle">XXXXXXXXXXXXXX</div>
+								<div class="detail">
+									<div>负责人：一二三</div>
+									<div>开始时间：2018-8-20</div>
+									<div>预计周期：3周</div>
+									<div>备注：备注备注备注</div>
+								</div>
+							</div>
+						</div> -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+	<script src="./js/coki.js"></script>
+	<script src="./js/sideBar.js"></script>
+	<script src="./js/dropDown.js"></script>
+	<script src="./js/sideBarLoad.js"></script>
+	<script src="./js/locAllProjJS.js"></script>
+	<script src="./js/allProjJS.js"></script>
+	<script src="./js/modelJS.js"></script>
+	<script>
+		
+	</script>
+	<!-- <script src="./js/dropDown2.js"></script> -->
+
+</html>
