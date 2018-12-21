@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="./jQuery3.3.1/jquery3_3_1.js"></script>
+	<link href="./Bootstrap4.1.1/bootstrap4_1_1.css" rel="stylesheet">
+	<script src="./Bootstrap4.1.1/bootstrap4_1_1.js"></script>
+    <link rel="stylesheet" href="./css/model.css">
+    <link rel="stylesheet" href="./css/goodsmanage_me.css">
+    <script src="./js/prev.js"></script>
+    <link rel="icon" href="./img/logo.png" type="image/x-icon">
+    <title>服务外包与软件设计实验室</title>
+    <script>
+
+    
+    </script>
+</head>
+<body style="min-width: 1000px;min-height: 1000px;">
+    <div id="wrapper" style="position: relative;height: 100%;width: 100%;">
+        <div id="header" style="position:absolute;top: 0;left: 0;width: 100%;box-shadow: 0px 8px 19px 2px rgba(87, 87, 87, 0.11);">
+                <div style="width: 100%;height: 100%;display: flex;justify-content: space-between;align-items: center;">
+                    <div class="top topLeft" data-wheClick="1" style="height: 100%;cursor: pointer;padding-top: 2%;">
+                        <img src="./img/menu.png" alt="" height="60%">
+                    </div>
+                    <div class="top topMiddle" style="height: 100%;padding-top: 2%;">
+                        <img src="./img/headerLogo.gif" alt="" height="60%">
+                    </div>
+                    <div class="top topRight" style="height: 100%;padding-top: 2%;">
+                        <img src="./img/me.png" alt="" height="60%" style="float: left"/>
+                        <img src="./img/notice.png" alt="" height="60%" style="float: right"/>    
+                    </div>
+                </div>
+
+        </div>
+        <div id="content" style="position: absolute;bottom: 0;width: 100%;">
+            <div style="width: 100%;height: 100%;position: relative;">
+                <div id="leftBar" style="position: absolute;left: 0;top: 0;height: 100%;background-color:#345d89;box-shadow: 0px 8px 19px 2px rgba(87, 87, 87, 0.11);">
+                    <ul style="padding-top: 10px;">
+                        <li class="leftList"><span style="line-height: 46px;">首页</span></li>
+                        <li class="leftList"><span style="line-height: 46px;">日常管理</span></li>
+                        <li class="leftList"><span style="line-height: 46px;">图书管理</span></li>
+                        <li class="leftList leftActive"><span style="line-height: 46px;">物资管理</span></li>
+                        <li class="leftList"><span style="line-height: 46px;">资料管理</span></li>
+                        <li class="leftList"><span style="line-height: 46px;">研究生</span></li>
+                        <li class="leftList"><span style="line-height: 46px;">本科生</span></li>
+                        <li class="leftList"><span style="line-height: 46px;">项目展示</span></li>
+                        <li class="leftList"><span style="line-height: 46px;">活动组织</span></li>
+                    </ul>
+                </div>
+                <div id="rightContainer" style="position: absolute;right: 0;height: 100%;background-color: #e9ecf3;">
+                	<div style="position: relative;width: 100%;height: 100%">
+						<div class="right">
+							<div style="width: 100%;height: 100%;background-color: #fff;box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.07);border-radius: 3px;s">
+								<div class="topbar">
+									<div class="barleft">
+										<span class="barlefttext">所有物资</span>
+									</div>
+									<div class="barmiddle">
+										<span class="barmiddletext">我借的物资</span>
+									</div>
+									<div class="barright">
+										<span class="barrighttext">申请记录</span>
+									</div>
+								</div>
+								<div style="width: 93.94%;height: 83.84%;margin: 0 auto;padding-top: 1.85%;">
+									<div style="width: 100%;height: 5.9%;display: flex;justify-content: flex-end;">
+										<div style="float: left;width: 88.9%;height: 100%;display: flex;align-items: center;padding-left: 37.7%">
+											<img src="img/search.png">
+											<input type="search" class="search">
+										</div>
+									</div>
+									<table class="table table-bordered" style="margin-top: 2.1%;margin-bottom: 0;">
+										<thead>
+											<tr>
+												<th style="width: 5.61%;">编号</th>
+												<th style="width: 16.3%;">型号</th>
+												<th style="width: 22.5%">物资名称</th>
+												<th style="width: 12.9%;">购买时间</th>
+												<th style="width: 13.7%">存放位置</th>
+												<th style="width: 19.4%;">备注</th>
+												<th>状态</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>01</td>
+												<td>978-7-5472-0629-4</td>
+												<td>打印机</td>
+												<td>2018.05</td>
+												<td>3#201</td>
+												<td>&#12288;</td>
+												<td>陈某某</td>
+											</tr>
+											<tr>
+												<td>02</td>
+												<td>978-7-5436-9367-8</td>
+												<td>移动硬盘</td>
+												<td>2018.06</td>
+												<td>3#201</td>
+												<td>&#12288;</td>
+												<td>陈某某</td>
+											</tr>
+											<tr>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+											</tr>
+											<tr>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+											</tr>
+											<tr>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+											</tr>
+											<tr>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+											</tr>
+											<tr>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+											</tr>
+											<tr>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+											</tr>
+											<tr>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+											</tr>
+											<tr>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+											</tr>
+											<tr>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+											</tr>
+										</tbody>
+									</table>
+									<ul class="pagination paging">
+										<li class="page-item"><a class="page-link" href="#">上页</a></li>
+										<li class="page-item active"><a class="page-link" href="#">1</a></li>
+										<li class="page-item"><a class="page-link" href="#">2</a></li>
+										<li class="page-item"><a class="page-link" href="#">3</a></li>
+										<li class="page-item"><a class="page-link" href="#">4</a></li>
+										<li class="page-item"><a class="page-link" href="#">5</a></li>
+										<li class="page-item"><a class="page-link" href="#">6</a></li>
+										<li class="page-item"><a class="page-link" href="#">下页</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+                	</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/sideBar.js"></script>
+</body>
+</html>
