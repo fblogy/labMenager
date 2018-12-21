@@ -14,13 +14,17 @@
 	color: #2e4e7e;font-size: 90%;font-family: DengXian-Regular;font-weight: bold;padding-right: 0.5%;padding-left: 0.5%;
 }
 .title{
-	font-family: DengXian-Regular;font-size: 100%;color: #2e4e7e;
+
+	font-family: DengXian-Regular;font-size: 70%;color: #2e4e7e;
+
 }
 .submitbtn{
 	padding-top: 5%;width: 100%;text-align: center;
 }
 .btn1{
-	width: 18%;height: 8%;background-color: #2e4e7e;border-radius: 5px;font-family: DengXian-Regular;font-size: 100%;color: #fff;
+
+	width: 24%;height: 8%;background-color: #2e4e7e;border-radius: 5px;font-family: DengXian-Regular;font-size: 70%;color: #fff;
+
 }
 /*自定义单选按钮*/
 .rdo {

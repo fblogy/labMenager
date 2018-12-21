@@ -28,7 +28,9 @@ $(document).ready(function(){
     <p class="navP" style="" onclick="location.href='bachelorBlock.html'">研究生模块</p>
     <p class="navP" style="" onclick="location.href='activityAllAD.html'">活动组织</p>
     <p class="navP" style="" onclick="location.href='fundProj.html'">项目展示</p>
-    <p class="navP" style="" onclick="location.href='bookMng.html'">图书管理</p>
+
+    <p class="navP" style="" onclick="location.href='bookAllAD.html'">图书管理</p>
+
     <p class="navP" style="" onclick="location.href='goodMng.html'">物资管理</p>
     `;
     var SU=AD+`<p class="navP" style="" onclick="location.href='userMng.html'">用户管理</p>`;
@@ -54,7 +56,9 @@ $(document).ready(function(){
     <p class="navP" style="" onclick="location.href='bachelorBlock.html'">研究生模块</p>
     <p class="navP" style="" onclick="location.href='activityIng.html'">活动组织</p>
     <p class="navP" style="" onclick="location.href='fundProj.html'">项目展示</p>
-    <p class="navP" style="" onclick="location.href='bookMng.html'">图书管理</p>
+
+    <p class="navP" style="" onclick="location.href='bookAll.html'">图书管理</p>
+
     <p class="navP" style="" onclick="location.href='goodMng.html'">物资管理</p>
     `;
     var TL=`
