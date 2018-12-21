@@ -1,0 +1,220 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>服务外包与软件设计实验室</title>
+
+<script type="text/javascript" src="jQuery3.3.1/jquery3_3_1.js"></script>
+<link href="./Bootstrap4.1.1/bootstrap4_1_1.css" rel="stylesheet">
+<script src="./Bootstrap4.1.1/bootstrap4_1_1.js"></script>
+<link rel="icon" href="./img/logo.png" type="image/x-icon">
+<link rel="stylesheet" href="./css/modelCSS.css">
+<link rel="stylesheet" href="./css/dorpdownCSS.css">
+<link rel="stylesheet" href="./css/sidebarLoadCSS.css">
+<link rel="stylesheet" href="./css/userInfoSUCSS.css">
+<link rel="icon" href="./img/logoSmall.png" type="image/x-icon">
+</head>
+
+<body style="min-width: 1000px;">
+<div style="position: relative;width: 100%; height: 100%; background: whitesmoke; display: flex; flex-direction: column;">
+	<div id="header" style="position: relative; width: 100%; height: 50px; min-height: 50px; background: white; display: flex; justify-content: space-between;">
+		<div style="width: 140px;padding: 5px; box-sizing: border-box; display: flex; align-items: center;">
+			<img alt="" src="img/menu.png" style="height: 25px; width: auto; cursor: pointer;" onClick="show_navigation()"/>
+		</div>
+		<div style="padding: 5px; box-sizing: border-box; display: flex; align-items: center;">
+			<img alt="" src="img/headerLogo.gif" style="height: 35px; width: auto;"/>
+		</div>
+		<div style="width: 140px;height: 100%; box-sizing: border-box; display: flex;padding-right: 10px;">
+				<div id="noticeDiv" onclick="location.href='noticePage.html'" style="height: 100%;width:50%;display:flex;flex-direction: row-reverse;align-items: center;cursor: pointer;">
+					<img src="./img/notice.png" alt="" height="30px" width="50%" style="display: block;margin: 0 auto"/>
+				</div> 
+				<div id="dropBtn" class="mydropdown"  style="z-index: 10;height: 100%;width: 50%;display:flex;flex-direction: row-reverse;align-items: center;cursor: pointer;">
+					<img src="./img/me.png" alt="" height="30px" width="50%" style="display: block;margin: 0 auto"/>
+					<div class="mydropdownContent"></div>
+				</div>
+				
+		</div>
+	</div>
+	<div style="position: relative; width: 100%; height: 100%; display: flex; justify-content: space-between; overflow: hidden;">
+		<div id="navigation">
+			<!-- <p class="navP navPActive">首页</p> -->
+			
+		</div>
+		<div  id="AllContainer" style="width: 100%; height: 100%;">
+			<div style="position: relative;width: 100%;height: 100%">
+				<div class="rightTop">
+					<div style="width: 100%;height: 100%;background-color: #fff;box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.07);border-radius: 3px;">
+						<div class="topbar">
+							<div class="barleft" onclick="location.href='userInfoSU.html'" style="cursor: pointer;">
+								<span class="barlefttext">信息管理</span>
+							</div>
+							<div class="barright" onclick="location.href='roleAddSU.html'" style="cursor: pointer;">
+								<span class="barrighttext">角色赋予</span>
+							</div>
+						</div>
+						<div style="width: 93.94%;height: 83.84%;margin: 0 auto;padding-top: 1.85%;">
+							<div style="width: 100%;height: 5.9%;">
+								<button class="btn1 btn" style="float: left">添加用户</button>
+								<div style="float: left;width: 88.9%;height: 100%;display: flex;align-items: center;padding-left: 37.7%">
+									<img src="img/search.png">
+									<input type="search" class="search">
+								</div>
+							</div>
+							<table class="table table-bordered" style="margin-top: 2.1%;margin-bottom: 0;">
+								<thead>
+									<tr>
+										<th style="width: 11.3%;">姓名</th>
+										<th style="width: 7.4%;">性别</th>
+										<th style="width: 10.7%">年级</th>
+										<th style="width: 17%;">账号</th>
+										<th style="width: 19%">密码</th>
+										<th style="width: 12.5%;">小组</th>
+										<th style="width: 13.2%;">联系方式</th>
+										<th>状态</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>张三</td>
+										<td>男</td>
+										<td>2017</td>
+										<td>03*******</td>
+										<td>*********</td>
+										<td>安卓组</td>
+										<td>131********</td>
+										<td style="color: #c93756">已禁用</td>
+									</tr>
+									<tr>
+										<td>李四</td>
+										<td>女</td>
+										<td>2016</td>
+										<td>03*******</td>
+										<td>*********</td>
+										<td>美工组</td>
+										<td>135********</td>
+										<td style="color: #13ab0b">已启用</td>
+									</tr>
+									<tr>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+									</tr>
+									<tr>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+									</tr>
+									<tr>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+									</tr>
+									<tr>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+									</tr>
+									<tr>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+									</tr>
+									<tr>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+									</tr>
+									<tr>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+									</tr>
+									<tr>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+									</tr>
+									<tr>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+										<td>&#12288;</td>
+									</tr>
+								</tbody>
+							</table>
+							<ul class="pagination paging">
+								<li class="page-item"><a class="page-link" href="#">上页</a></li>
+								<li class="page-item active"><a class="page-link" href="#">1</a></li>
+								<li class="page-item"><a class="page-link" href="#">2</a></li>
+								<li class="page-item"><a class="page-link" href="#">3</a></li>
+								<li class="page-item"><a class="page-link" href="#">4</a></li>
+								<li class="page-item"><a class="page-link" href="#">5</a></li>
+								<li class="page-item"><a class="page-link" href="#">6</a></li>
+								<li class="page-item"><a class="page-link" href="#">下页</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+	<script src="./js/coki.js"></script>
+	<script src="./js/sideBar.js"></script>
+	<script src="./js/dropDown.js"></script>
+	<script src="./js/sideBarLoad.js"></script>
+	<script src="./js/modelJS.js"></script>
+
+	<script src="./js/locActivityDoneJS.js"></script>
+	<script src="./js/ActivityDoneJS.js"></script>
+	
+	
+	
+	<!-- <script src="./js/dropDown2.js"></script> -->
+
+</html>

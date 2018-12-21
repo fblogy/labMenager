@@ -1,0 +1,34 @@
+.mydropdownContent{
+    display: none;z-index: 10;width:100px;position: absolute;top: 98%;background-color:white;right:0px;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+#dropBtn:hover .mydropdownContent{
+    display: block;
+}
+
+.dpCont{
+    font-size:16px;
+    font-family: 微软雅黑;
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    cursor: pointer;
+}
+.selectRole{
+    background-color: white;
+    color: #00366C;
+
+    text-align: center;
+    width: 100%;
+    line-height: 30px;
+}
+.selectEDRole{
+    background-color:#00366C;
+    color: white;
+
+
+    text-align: center;   
+    width: 100%;
+}
+.exitBtn{
+    color:gray;line-height:30px;
+}

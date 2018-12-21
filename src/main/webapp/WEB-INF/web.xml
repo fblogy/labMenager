@@ -838,7 +838,6 @@
         <servlet-class>mybatis.servlet.SysUserServlet.ModifyPassServlet</servlet-class>
     </servlet>
 
-
     <servlet-mapping>
         <servlet-name>modifyPass</servlet-name>
         <url-pattern>/modifyPass</url-pattern>

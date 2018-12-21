@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>服务外包与软件设计实验室</title>
+<script src="./jQuery3.3.1/jquery3_3_1.js"></script>
+<link media="(min-width:1400px)" href="./css/login.css" rel="stylesheet" type="text/css">
+<link media="(max-width:1400px)" href="./css/login1400.css" rel="stylesheet" type="text/css">
+<link href="./Bootstrap4.1.1/bootstrap4_1_1.css" rel="stylesheet">
+<script src="./Bootstrap4.1.1/bootstrap4_1_1.js"></script>
+<link rel="icon" href="./img/logo.png" type="image/x-icon">
+</head>
+
+<body>
+	<div>
+		<div class="login-top">
+		<div class="problem">问题反馈</div>
+		<div class="login">
+			<div class="pic"></div>
+			<div class="login-text">账号密码登录</div>
+				<div class="input">
+					<input id="getAcct" class="input-user" placeholder="账号" type="text">
+					<input id="getPwd" class="input-psd" placeholder="密码" type="password">
+					<div class="custom-control custom-checkbox input-chose">
+		  				<input type="checkbox" class="custom-control-input" id="checkbox" name="example1">
+		  				<label class="custom-control-label" for="checkbox">下次自动登录</label>
+					</div> 
+				</div>
+			<button onclick="clickLogin()" class="login-btn" type="button">登录</button>
+		</div>
+		<div>
+			<img src="./img/loginText.png" class="text">
+		</div>
+		<div id="myCarousel" class="carousel slide login-banner" data-ride="carousel">
+			<!--指示符-->
+			<ul class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+			</ul>
+
+			<!--轮播图片-->
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="" width="100%" class="imgContainer">
+				</div>
+				<div class="carousel-item">
+					<img src="" width="100%" class="imgContainer">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<img src="./img/logo.png" class="logo">
+		<span class="title">高校实验室信息化管理系统</span>
+	</div>
+	</div>
+	
+</body>
+	<script src="./js/coki.js"></script>
+	<script src="./js/banDrag.js"></script>
+
+	<script src="./js/loginJs.js"></script>
+	
+</html>

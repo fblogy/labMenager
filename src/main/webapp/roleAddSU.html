@@ -1,0 +1,218 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>服务外包与软件设计实验室</title>
+
+<script type="text/javascript" src="jQuery3.3.1/jquery3_3_1.js"></script>
+<link href="./Bootstrap4.1.1/bootstrap4_1_1.css" rel="stylesheet">
+<script src="./Bootstrap4.1.1/bootstrap4_1_1.js"></script>
+<link rel="icon" href="./img/logo.png" type="image/x-icon">
+<link rel="stylesheet" href="./css/modelCSS.css">
+<link rel="stylesheet" href="./css/dorpdownCSS.css">
+<link rel="stylesheet" href="./css/sidebarLoadCSS.css">
+<link rel="stylesheet" href="./css/roleAddSU.css">
+<link rel="icon" href="./img/logoSmall.png" type="image/x-icon">
+</head>
+
+<body style="min-width: 1000px;">
+<div style="position: relative;width: 100%; height: 100%; background: whitesmoke; display: flex; flex-direction: column;">
+	<div id="header" style="position: relative; width: 100%; height: 50px; min-height: 50px; background: white; display: flex; justify-content: space-between;">
+		<div style="width: 140px;padding: 5px; box-sizing: border-box; display: flex; align-items: center;">
+			<img alt="" src="img/menu.png" style="height: 25px; width: auto; cursor: pointer;" onClick="show_navigation()"/>
+		</div>
+		<div style="padding: 5px; box-sizing: border-box; display: flex; align-items: center;">
+			<img alt="" src="img/headerLogo.gif" style="height: 35px; width: auto;"/>
+		</div>
+		<div style="width: 140px;height: 100%; box-sizing: border-box; display: flex;padding-right: 10px;">
+				<div id="noticeDiv" onclick="location.href='noticePage.html'" style="height: 100%;width:50%;display:flex;flex-direction: row-reverse;align-items: center;cursor: pointer;">
+					<img src="./img/notice.png" alt="" height="30px" width="50%" style="display: block;margin: 0 auto"/>
+				</div> 
+				<div id="dropBtn" class="mydropdown"  style="z-index: 10;height: 100%;width: 50%;display:flex;flex-direction: row-reverse;align-items: center;cursor: pointer;">
+					<img src="./img/me.png" alt="" height="30px" width="50%" style="display: block;margin: 0 auto"/>
+					<div class="mydropdownContent"></div>
+				</div>
+				
+		</div>
+	</div>
+	<div style="position: relative; width: 100%; height: 100%; display: flex; justify-content: space-between; overflow: hidden;">
+		<div id="navigation">
+			<!-- <p class="navP navPActive">首页</p> -->
+			
+		</div>
+		<div  id="AllContainer" style="width: 100%; height: 100%;">
+			<div style="position: relative;width: 100%;height: 100%">
+				<div class="rightTop">
+					<div style="width: 100%;height: 100%;background-color: #fff;box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.07);border-radius: 3px;">
+						<div class="topbar">
+							<div class="barleft" onclick="location.href='userInfoSU.html'" style="cursor: pointer;">
+								<span class="barlefttext">信息管理</span>
+							</div>
+							<div class="barright" onclick="location.href='roleAddSU.html'" style="cursor: pointer;">
+								<span class="barrighttext">角色赋予</span>
+							</div>
+						</div>
+						<div style="height: 100%;width: 100%;display: flex;">
+							<div style="width: 50%;height: 100%;padding-left: 45.8px;padding-top: 1.85%;">
+								<div style="width: 100%;height: 5.9%;">
+									<div style="float: left;width: 100%;height: 70%;display: flex;align-items: center;">
+										<img src="img/search.png">
+										<input type="search" class="search">
+									</div>
+								</div>
+								<div style="width: 100%;overflow-y: scroll;height: 77%;margin-top: 2.1%;margin-bottom: 0;">
+									<table class="table table-bordered" style="margin-bottom: 0;">
+										<thead>
+											<tr>
+												<th style="width: 22%;">姓名</th>
+												<th style="width: 20.7%;">账号</th>
+												<th>角色</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>张三</td>
+												<td>03*******</td>
+												<td>本科生 项目负责人</td>
+											</tr>
+											<tr>
+												<td>李四</td>
+												<td>03*******</td>
+												<td>研究生 超级管理员</td>
+											</tr>
+											<tr>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+											</tr>
+											<tr>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+											</tr>
+											<tr>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+											</tr>
+											<tr>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+											</tr>
+											<tr>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+											</tr>
+											<tr>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+											</tr>
+											<tr>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+											</tr>
+											<tr>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+											</tr>
+											<tr>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+												<td>&#12288;</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+							
+							<div style="height: 100%;width: 50%;padding-top: 7%">
+								<div style="height: 80%;width: 76%;margin: 0 auto;">
+									<div class="title">
+										角色列表:
+									</div>
+									<div style="height: 33%;width: 100%;border: solid 3px #e1e6ed;">
+										<div style="display: flex;justify-content:flex-start">
+											<div class="custom-control custom-checkbox input-chose before">
+												<input type="checkbox" class="custom-control-input" id="checkbox" name="example1">
+												<label class="custom-control-label" for="checkbox">本科生</label>
+											</div> 
+											<div class="custom-control custom-checkbox input-chose after">
+												<input type="checkbox" class="custom-control-input" id="checkbox1" name="example1">
+												<label class="custom-control-label" for="checkbox1">项目负责人</label>
+											</div> 
+										</div>
+										<div style="display: flex;justify-content: flex-start">
+											<div class="custom-control custom-checkbox input-chose before">
+												<input type="checkbox" class="custom-control-input" id="checkbox2" name="example1">
+												<label class="custom-control-label" for="checkbox2">研究生</label>
+											</div> 
+											<div class="custom-control custom-checkbox input-chose after">
+												<input type="checkbox" class="custom-control-input" id="checkbox3" name="example1">
+												<label class="custom-control-label" for="checkbox3">管理员</label>
+											</div> 
+										</div>
+										<div style="display: flex;justify-content: flex-start">
+											<div class="custom-control custom-checkbox input-chose before">
+												<input type="checkbox" class="custom-control-input" id="checkbox4" name="example1">
+												<label class="custom-control-label" for="checkbox4">小组长</label>
+											</div> 
+											<div class="custom-control custom-checkbox input-chose after">
+												<input type="checkbox" class="custom-control-input" id="checkbox5" name="example1">
+												<label class="custom-control-label" for="checkbox5">超级管理员</label>
+											</div> 
+										</div>
+									</div>
+									<div class="btngrp">
+										<btn class="btn1 btn">添加</btn>
+										<btn class="btn1 btn">移除</btn>
+									</div>
+									<div class="title" style="margin-top: 12%">
+										该用户已拥有角色:
+									</div>
+									<div style="height: 33%;width: 100%;border: solid 3px #e1e6ed;">
+										<div style="display: flex;justify-content:flex-start">
+											<div class="custom-control custom-checkbox input-chose before">
+												<input type="checkbox" class="custom-control-input" id="checkbox" name="example1">
+												<label class="custom-control-label" for="checkbox">本科生</label>
+											</div> 
+											<div class="custom-control custom-checkbox input-chose after">
+												<input type="checkbox" class="custom-control-input" id="checkbox1" name="example1">
+												<label class="custom-control-label" for="checkbox1">项目负责人</label>
+											</div> 
+										</div>
+										<div style="display: flex;justify-content: flex-start">
+											<div class="custom-control custom-checkbox input-chose before">
+												<input type="checkbox" class="custom-control-input" id="checkbox2" name="example1">
+												<label class="custom-control-label" for="checkbox2">管理员</label>
+											</div> 
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+	<script src="./js/coki.js"></script>
+	<script src="./js/sideBar.js"></script>
+	<script src="./js/dropDown.js"></script>
+	<script src="./js/sideBarLoad.js"></script>
+	<script src="./js/modelJS.js"></script>
+
+	<script src="./js/locActivityDoneJS.js"></script>
+	<script src="./js/ActivityDoneJS.js"></script>
+	
+	
+	
+	<!-- <script src="./js/dropDown2.js"></script> -->
+
+</html>
